@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+
+    <title>Lukujärjestys</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Valitse tehtävä</h1>
+
+        <div class="task__container">
+            <div class="task__name" id="matikka" style="background-color: #f7f779;">Matematiikka</div>
+            <div class="task__name" id="terveystieto" style="background-color: #f68080">Äidinkieli</div>
+            <div class="task__name" id="historia" style="background-color: #faae7b">Historia</div>
+            <div class="task__name" id="englanti" style="background-color: #2a9d8f">Englanti</div>
+            <div class="task__name" id="kemia" style="background-color: #a8dadc">Kemia</div>
+            <div class="task__name" id="liikunta" style="background-color: #bdb2ff">Liikunta</div>
+        
+
+        </div>
+        
+
+        <h3>Lisää valitut tehtävät lukujärjestykseen</h3>
+
+        <div class="schedule__container">
+            <div class="days__container">
+                <span class="corner"></span>
+                
+                <div class="day">Maanantai</div>
+                <div class="day">Tiistai</div>
+                <div class="day">10:30 - 11:15</div>
+                <div class="day">11:15 - 11:45</div>
+                <div class="day">11:45 - 12:30</div>
+                <div class="day">12:45 - 13:30</div>
+                <div class="day">13:45 - 14:30</div>
+                <div class="day">14:30 - 15:15</div>
+           
+            </div>
+            
+            <div class="part__day">
+                <span class="time">8:30 <br> - <br> 9:15</span>
+                <div class="task" ></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>                       
+ </div>
+            <div class="part__day">
+                <span class="time">9:20 <br> - <br> 2pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>  
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>          
+</div>
+            <div class="part__day">
+                <span class="time">2pm <br> - <br> 6pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div> 
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>           
+</div>
+            <div class="part__day">
+                <span class="time">6pm <br> - <br> 9pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>  
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>          
+</div>
+            <div class="part__day">
+                <span class="time">9pm <br> - <br> 11pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>          </div>
+        
+        </div>
+
+        <button class="deleteBtn">Resetoi Lukujärjestys</button>
+
+        <div class="pop-up__container">
+            <div class="pop-up">
+                <h4>Oletko varma, että haluat poistaa kaikki tehtävät lukujärjestyksestä</h4>
+                <div class="btn__container">
+                    <div class="btn__answer" id="btn__yes">Kyllä</div>
+                    <div class="btn__answer" id="btn__no">En</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
